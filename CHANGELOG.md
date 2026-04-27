@@ -8,7 +8,8 @@ For installation instructions see [docs.roadsave.co.za/ios/](https://docs.roadsa
 
 ## [Unreleased]
 
-(no public-facing changes pending)
+### Fixed
+- The Step 1 install URL in the Getting Started article was incorrect and would cause Xcode to fail when adding the package. The URL now correctly points to `https://github.com/Dynamus-Technologies/roadsave-ios-sdk`.
 
 ---
 

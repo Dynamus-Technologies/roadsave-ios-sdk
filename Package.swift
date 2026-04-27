@@ -13,7 +13,7 @@ let package = Package(
         .binaryTarget(
             name: "RoadSaveKit",
             url: "https://github.com/Dynamus-Technologies/roadsave-ios-sdk/releases/download/4.0.0-rc.1/RoadSaveKit-4.0.0-rc.1.xcframework.zip",
-            checksum: "0e561deaa1daae315a7b0f0ce594c802b9d131dccf3cc4eb7258af718bef1f5f"
+            checksum: "03c1483cf6fea9d3d26b57a72e0e727bec79bc2e6eca6dc4f8df74e144d3872a"
         )
     ]
 )
