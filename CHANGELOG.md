@@ -8,6 +8,9 @@ For installation instructions see [docs.roadsave.co.za/ios/](https://docs.roadsa
 
 ## [Unreleased]
 
+### Changed
+- `MockBridge` (DEBUG-only mock injection) no longer appears in the API Reference. It remains available in DEBUG builds; only the documentation pages are suppressed.
+
 ### Fixed
 - The Step 1 install URL in the Getting Started article was incorrect and would cause Xcode to fail when adding the package. The URL now correctly points to `https://github.com/Dynamus-Technologies/roadsave-ios-sdk`.
 - Cross-article links in the Getting Started, Privacy Manifest, and Downloads pages were producing 404s on the documentation site. All "Next Steps" and "See also" links now resolve correctly.
