@@ -12,7 +12,9 @@ For installation instructions see [docs.roadsave.co.za/ios/](https://docs.roadsa
 - The Step 1 install URL in the Getting Started article was incorrect and would cause Xcode to fail when adding the package. The URL now correctly points to `https://github.com/Dynamus-Technologies/roadsave-ios-sdk`.
 - Cross-article links in the Getting Started, Privacy Manifest, and Downloads pages were producing 404s on the documentation site. All "Next Steps" and "See also" links now resolve correctly.
 - The API Reference page on the documentation site was blank. Asset paths are now version-scoped to match the deployed URL structure.
+- Visiting the API Reference root URL now redirects directly to the module page instead of showing a "page not found" screen.
 - "Related" section links and "Next Steps" links in the Integration Guide now render as clickable links instead of blank bullets.
+- "Related" sections in the Integration Guide no longer show inline-code entries for API types that have no link target; only article cross-references are listed.
 
 ### Changed
 - Integration Guide content reorganised for clarity — internal implementation details removed from the Configuring the SDK, Trip Detection, and Crash Detection articles.
